@@ -1,0 +1,19 @@
+﻿<Window x:Class="Shortcuts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shortcuts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="554.244">
+    <Grid>
+
+
+        <Button x:Name="btnSave" Content="Save All" HorizontalAlignment="Left" Margin="435,289,0,0" VerticalAlignment="Top" Width="101" Click="btnSave_Click" Height="20"/>
+        <Button x:Name="btnLoad" Content="Load All" HorizontalAlignment="Left" Margin="328,289,0,0" VerticalAlignment="Top" Width="101" Click="btnLoad_Click" Height="20"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="328,34,0,0" TextWrapping="Wrap" Text="Select a hotkey" VerticalAlignment="Top" Width="208" KeyDown="textBox_KeyDown" KeyUp="textBox_KeyUp"/>
+        <ListBox x:Name="lstActions" HorizontalAlignment="Left" Height="275" Margin="10,34,0,0" VerticalAlignment="Top" Width="172" SelectionChanged="lstActions_SelectionChanged"/>
+        <ListBox x:Name="lstShortcuts" HorizontalAlignment="Left" Height="275" Margin="187,34,0,0" VerticalAlignment="Top" Width="136"/>
+
+    </Grid>
+</Window>

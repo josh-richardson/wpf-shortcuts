@@ -1,0 +1,10 @@
+{
+  "methodName": "showText",
+  "description": "Show text",
+  "shortcuts": [
+    {
+      "key": 44,
+      "modifiers": 2
+    }
+  ]
+}

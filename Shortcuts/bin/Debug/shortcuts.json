@@ -1,0 +1,34 @@
+{
+  "shortcuts": [
+    {
+      "methodName": "ShowMessage",
+      "description": "Show a messagebox",
+      "shortcuts": [
+        {
+          "key": 56,
+          "modifiers": 2
+        }
+      ]
+    },
+    {
+      "methodName": "ChangeColour",
+      "description": "Change background colour",
+      "shortcuts": [
+        {
+          "key": 45,
+          "modifiers": 2
+        }
+      ]
+    },
+    {
+      "methodName": "ResetColour",
+      "description": "Reset background colour",
+      "shortcuts": [
+        {
+          "key": 69,
+          "modifiers": 3
+        }
+      ]
+    }
+  ]
+}
